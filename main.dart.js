@@ -38201,7 +38201,7 @@ o=q.a.c
 m.f.vz(N.afr(null,null,null,null,L.b8("Copied identity "+o.gkv(o)+" to clipboard.",null,null,null,null,null),p,null,null,null,null,null,null,null))
 n=window.location.href
 s=2
-return P.a6(T.DC(new T.jS((J.jH(n,"localhost")?n:"https://app.ethrive.org")+"import/"+H.h(q.gCe()))),$async$tp)
+return P.a6(T.DC(new T.jS((J.jH(n,"localhost")?n:"https://app.ethrive.org/#/")+"import/"+H.h(q.gCe()))),$async$tp)
 case 2:return P.a_(null,r)}})
 return P.a0($async$tp,r)},
 kL:function(a,b){return this.a51(a,b)},
