@@ -38654,7 +38654,7 @@ o=q.a.c
 m.f.vQ(N.ag0(null,null,null,null,L.b3("Copied identity "+o.giv(o)+" to clipboard.",null,null,null,null,null),p,null,null,null,null,null,null,null))
 n=window.location.href
 s=2
-return P.a7(T.DP(new T.k5((J.jU(n,"localhost")?n:"https://app.ethrive.org/#/")+"import/"+H.h(q.gCm()))),$async$tH)
+return P.a7(T.DP(new T.k5((J.jU(n,"localhost")?n:"https://dapp.ethrive.org/#/")+"import/"+H.h(q.gCm()))),$async$tH)
 case 2:return P.X(null,r)}})
 return P.Y($async$tH,r)},
 kR:function(a,b){return this.a5A(a,b)},
@@ -38671,7 +38671,7 @@ n=m==null?null:m.a
 if(b)n=J.dB(window.location.href,"import/Eh5MxGH2Em9gGp3ZdxhCiWuDCK3KhDD2KLPvnwDe72JLvGdPe3iVFsEVMwsArRy1Qvw141PNGjvpEyZuYc8YQBQiV5GW2WVHnMpTwU7AnLqw4M8NBh9Aid9HhHfkmQvZNVjcKQRa8ksdDJDhU7ptMrugTnU3SCgAuBCTXxjtZqgvkaUksU7aASfs4W6S9saUbEwKy5iJMf88q9wKrNyKeucH19AtT1ZunPQU7oUU4sPnD3ddaDManbgRejxBhQ8APxkKRg28r1D52iUzLLdHW8EWjUyMeDKtjPKLQUhCNMowymBKGC92LfixxC1dFxiyTkHrfSynu3g8h4vkfjLqLKuPDYQawpp4FkxcoP467ea6RvSJmoXE4")
 s=n!=null?7:8
 break
-case 7:if(!J.BA(n,"https://app.ethrive.org/#/"))m=J.BA(n,"http://localhost")&&J.jU(n,"/#/")
+case 7:if(!J.BA(n,"https://dapp.ethrive.org/#/"))m=J.BA(n,"http://localhost")&&J.jU(n,"/#/")
 else m=!0
 s=m?9:10
 break
@@ -38786,7 +38786,7 @@ X.akC.prototype={
 $0:function(){K.eo(this.a,!0).dF(0)},
 $S:3}
 X.akO.prototype={
-$1:function(a){var s=null,r=this.a.a.c,q="https://app.ethrive.org/#/import/"+H.h(this.b)
+$1:function(a){var s=null,r=this.a.a.c,q="https://dapp.ethrive.org/#/import/"+H.h(this.b)
 return E.a2n(s,s,T.de(new R.KN(q,new A.TC(s),s),250,300),new X.IC(r,s),s)},
 $S:54}
 X.akN.prototype={
