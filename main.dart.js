@@ -42605,7 +42605,8 @@ F.Ox.prototype={
 WP:function(){var s=this,r=s.d
 r.a8u(0,"/",new R.U5(new F.anG(s)))
 r.LO(0,"/import/contact/:datatoimport",new R.U5(new F.anH()),C.wO)
-if(s.e.dN("hive")==null)s.e.eh(0,"hive","https://hive.ethrive.org")},
+r=s.e
+if(r!=null&&r.dN("hive")==null)s.e.eh(0,"hive","https://hive.ethrive.org")},
 o_:function(){return this.PZ()},
 PZ:function(){var s=0,r=P.a0(t.z),q=this,p,o,n,m,l,k
 var $async$o_=P.V(function(a,b){if(a===1)return P.Y(b,r)
