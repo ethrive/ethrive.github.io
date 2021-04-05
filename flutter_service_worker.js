@@ -3,20 +3,20 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "main.dart.js": "d3dc83d8ea1179218e41aeb0d6b9c4e9",
+  "icons/Icon-512.png": "45254392071d32116ff0bb0072e7fc62",
 "icons/Icon-192.png": "ae326af7635cd12c4506669cd39f3521",
-"icons/Icon-512.png": "45254392071d32116ff0bb0072e7fc62",
-"assets/NOTICES": "a0d0ed7075f45ff77e89d5949d62fc44",
+"favicon.png": "55e56229d036fbec977c0dbbfc3f59d4",
+"manifest.json": "a4f7828faac319e328dceb0afdac0500",
+"index.html": "3ca16b3ad1890de1dbc77992d808d4ba",
+"/": "3ca16b3ad1890de1dbc77992d808d4ba",
+"assets/NOTICES": "1c5faa98a58d9b1aff8eb1c6062f3ed0",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/AssetManifest.json": "922948f1db8d08dfa13dd9ddb8bf3b5a",
 "assets/assets/ethrive.png": "7b1b7788974364a0d9f2f1a32b96a4b9",
 "assets/assets/arlt-labs.png": "2cd6193ee6fea23847ca584c284cf403",
-"version.json": "3221c09a68da959d37370ca08878025c",
-"manifest.json": "a4f7828faac319e328dceb0afdac0500",
-"favicon.png": "55e56229d036fbec977c0dbbfc3f59d4",
-"index.html": "2569ab654b874ea79c8e7d3db1838c83",
-"/": "2569ab654b874ea79c8e7d3db1838c83"
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"main.dart.js": "ae83ded5337ae2634ac2ade77d50a0cc",
+"version.json": "3221c09a68da959d37370ca08878025c"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -34,7 +34,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
